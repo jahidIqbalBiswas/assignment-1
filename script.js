@@ -12,7 +12,7 @@ function ageVerify(){
             cards[1].style.display = "block"
             alertMsg.innerHTML = `
             <div class="alert alert-warning mt-2" role="alert">
-              Empty field and less than 1 value is not expected!
+              Empty field or less than 1 value is not expected!
               <strong>
                 Please enter valid input.
               </strong>

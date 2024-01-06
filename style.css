@@ -56,6 +56,9 @@
   color: #666;
   text-transform: uppercase;
 }
+.card-section .card-filter {
+  max-width: 300px;
+}
 .card-section .all-cards {
   filter: blur(50px);
   pointer-events: none;

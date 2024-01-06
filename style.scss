@@ -63,6 +63,9 @@
       text-transform: uppercase;
     }
   }
+  .card-filter{
+    max-width: 300px;
+  }
   .all-cards{
     filter: blur(50px);
     pointer-events: none;
