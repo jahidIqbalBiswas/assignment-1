@@ -1,4 +1,6 @@
+//fonts
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Lines&display=swap");
+// navbar
 .navbar {
   padding: 0px 0;
   border-bottom: 1px solid #444444;
@@ -7,9 +9,10 @@
     font-weight: 100;
   }
 }
+// banner section
 .banner-section {
   height: 100vh;
-  background-image: url("https://images.unsplash.com/photo-1534870439272-475575042b61?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"),
+  background-image: url("./img/banner-img.avif"),
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 5, 0.5));
   background-size: cover;
   background-repeat: no-repeat;
@@ -21,7 +24,7 @@
   background-attachment: fixed;
   .banner-content-wrapper {
     h1 {
-      font-size: 90px;
+      // font-size: 90px !important;
       font-family: "Rubik Lines", system-ui;
     }
     p {
@@ -41,6 +44,7 @@
     }
   }
 }
+// card section
 .card-section {
   padding: 80px 0;
   .section-title-desc {

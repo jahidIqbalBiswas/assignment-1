@@ -10,7 +10,7 @@
 
 .banner-section {
   height: 100vh;
-  background-image: url("https://images.unsplash.com/photo-1534870439272-475575042b61?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 5, 0.5));
+  background-image: url("./img/banner-img.avif"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 5, 0.5));
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -21,7 +21,6 @@
   background-attachment: fixed;
 }
 .banner-section .banner-content-wrapper h1 {
-  font-size: 90px;
   font-family: "Rubik Lines", system-ui;
 }
 .banner-section .banner-content-wrapper p {

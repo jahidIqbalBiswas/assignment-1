@@ -1,3 +1,4 @@
+//Card section
 function ageVerify(){
     let age = document.getElementById("ageInput");
     let blurContent = document.getElementById("allCards");
@@ -31,3 +32,7 @@ function ageVerify(){
     
 }
 ageVerify()
+//Get year for footer.
+let year = new Date().getFullYear()
+let footerYear = document.getElementById("footerYear");
+footerYear.textContent = year;
