@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Lines&display=swap");
+.navbar {
+  padding: 0px 0;
+  border-bottom: 1px solid #444444;
+}
+.navbar .navbar-brand {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.banner-section {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1534870439272-475575042b61?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 5, 0.5));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+}
+.banner-section .banner-content-wrapper h1 {
+  font-size: 90px;
+  font-family: "Rubik Lines", system-ui;
+}
+.banner-section .banner-content-wrapper p {
+  font-size: 22px;
+  font-weight: 100;
+}
+.banner-section .banner-content-wrapper a.btn {
+  padding: 20px !important;
+  transition: 0.2s linear;
+}
+.banner-section .banner-content-wrapper a.btn i {
+  font-size: 18px;
+}
+.banner-section .banner-content-wrapper a.btn:hover {
+  background-color: #fff;
+  border: 1px solid #f4f4f4;
+}
+
+.card-section {
+  padding: 80px 0;
+}
+.card-section .section-title-desc h1 {
+  font-family: Rubik lines;
+  color: #000;
+  font-size: 60px;
+  line-height: 45px;
+}
+.card-section .section-title-desc p {
+  font-size: 14px;
+  font-weight: 400;
+  max-width: 250px;
+  margin: auto;
+  color: #666;
+  text-transform: uppercase;
+}
+.card-section .all-cards {
+  filter: blur(50px);
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}/*# sourceMappingURL=style.css.map */

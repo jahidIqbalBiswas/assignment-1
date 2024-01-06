@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ostad Assignment One</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand w-100 text-center" href="#">OAO</a>
+        </div>
+      </nav>
+    </header>
+    <section class="banner-section">
+      <div class="container">
+        <div class="banner-content-wrapper text-center text-light">
+          <h1>Assignment One</h1>
+          <p>
+            This project is developed using HTML , SCSS , Bootstrap and
+            JavaScript.
+          </p>
+          <br />
+          <a
+            class="btn px-4 py-2 btn-warning mt-5 rounded-5"
+            href="#cardSection"
+            title="Click here to scroll down"
+          >
+            <i class="fa-solid fa-arrow-down"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="cardSection" class="card-section">
+      <div class="container">
+        <div class="section-title-desc text-center">
+          <h1>CARDS</h1>
+          <p>You can filter that cards depends on your age.</p>
+        </div>
+        <br />
+        <br />
+        <div class="card-filter">
+          <form>
+            <div class="input-wrapper w-25 m-auto">
+              <label style="cursor: pointer;" for="ageInput" class="text-warning fw-bold">For see content enter your age inside this field :-</label>
+            <input id="ageInput" type="number" placeholder="Enter your age for see content" class="form-control border-dark shadow-none mt-2">
+            <div id="alert-show-box"></div>
+            </div>
+          </form>
+        </div>
+        <div id="allCards" class="all-cards my-5">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card">
+                <img src="./img/adult-img.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">You are Adult</h5>
+                  <p class="card-text">You are seeing adult contents. Because your age is over 18.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card">
+                <img src="./img/child-img.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">You are Child</h5>
+                  <p class="card-text">Sorry, You can'nt see all content. Because, your age is under 18.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-dark py-4">
+      <div class="container">
+        <p class="text-center text-light mb-0">
+          &copy; 2024 All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
